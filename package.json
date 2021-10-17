@@ -1,0 +1,39 @@
+{
+  "name": "@violinio/defi-interfaces",
+  "author": "violinio",
+  "version": "0.0.6",
+  "files": [
+    "/contracts/**/*.sol",
+    "/build/contracts/*.json",
+    "!/contracts/mocks/**/*"
+  ],
+  "scripts": {
+    "deploy": "npx hardhat deploy --network",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.6",
+    "hardhat-contract-sizer": "^2.0.3",
+    "hardhat-deploy": "^0.9.1",
+    "solidity-coverage": "^0.7.16",
+    "@openzeppelin/contracts": "^4.3.1"
+  },
+  "description": "Defi interfaces is a solidity interface library maintained by Violin to interact with various crypto projects.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violinio/defi-interfaces.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/violinio/defi-interfaces/issues"
+  },
+  "homepage": "https://github.com/violinio/defi-interfaces#readme"
+}
