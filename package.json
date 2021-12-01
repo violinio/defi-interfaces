@@ -1,7 +1,7 @@
 {
   "name": "@violinio/defi-interfaces",
   "author": "violinio",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "files": [
     "/contracts/**/*.sol",
     "/build/contracts/*.json",
