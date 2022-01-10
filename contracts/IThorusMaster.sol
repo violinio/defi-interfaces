@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
 interface IThorusMasterchef {
     function claim(uint256 _pid) external;
 
